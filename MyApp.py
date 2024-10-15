@@ -20,6 +20,6 @@ select = ('say hello', options)
 
 selections = st.selectbox('hello' 'goodbye')
 
-if select == 'goodbye'
+if select == 'goodbye':
   st.checkbox(True)
   st.write("Good Job!")
